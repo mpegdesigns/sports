@@ -1,0 +1,156 @@
+body
+{
+font-family: sans-serif;
+}
+
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('bebasneue-webfont.eot');
+    src: url('bebasneue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('bebasneue-webfont.woff') format('woff'),
+         url('bebasneue-webfont.ttf') format('truetype'),
+         url('bebasneue-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+/*===============================STRUCTURE===================*/
+
+#header
+{
+background-color:#013976;
+color: #FFFFFF;
+padding: 1px;
+margin: 0px 0px 0px 0px;
+border-bottom: 3px solid #2c99da;
+
+	a 
+	{
+		color: #FFFFFF;
+		text-decoration: none;
+		text-align: center;
+	}
+
+	ul
+	{
+		list-style: none;
+		text-align: right;
+		
+		li
+		{
+			display: inline;
+			border-left: 1px solid #2c99da;
+			padding: 5px;
+			
+		}
+		
+	}
+
+}
+
+#container
+{
+margin: 0 auto;
+}
+
+#banner
+{
+background-image: url("images/banner.png");
+background-repeat: no-repeat;
+background-position: center center;
+
+width: 100%;
+height: auto;
+padding: 10px 0 ;
+font-family: 'bebas_neueregular';
+
+	h1
+	{
+	font-size: 8vw;
+	color: #ffffff;
+	text-align: center;
+	}
+
+	h2
+	{
+	font-size: 6vw;
+	color: #ffffff;
+	text-align: center;
+	}
+}
+
+
+#grid
+{
+
+}
+
+#item
+{
+float: left;
+width: 31%;
+padding: 2px;
+margin: 1%;
+height: 355px;
+margin-bottom: 30px;
+}
+
+#footer
+{
+
+	a 
+	{
+		color: #000000;
+		font-size: 0.8em;
+		text-decoration: none;
+		text-align: center;
+	}
+
+	ul
+	{
+		list-style: none;
+		text-align: right;
+		float: right;
+		
+		li
+		{
+			display: inline;
+			/* 
+border-left: 1px solid #115FB7;
+			padding: 5px;
+ */
+			
+		}
+		
+	}
+
+
+
+}
+
+
+/*================CLASSES============*/
+
+.middle
+{
+display: block;
+margin: 0 auto;
+padding-bottom: 20px;
+}
+
+.left
+{
+float: left;
+}
+
+.clear
+{
+clear: both;
+}
+
+img {
+	max-width: 100%;
+	}
